@@ -7,3 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Equipment.create([{ name: 'box' }, { name: 'bench' }])
+Sport.create([{ name: 'Tennis' }, { name: 'Baseball' }])
