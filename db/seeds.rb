@@ -9,3 +9,4 @@
 Equipment.create([{ name: 'box' }, { name: 'bench' }])
 Sport.create([{ name: 'Tennis' }, { name: 'Baseball' }])
 Program.create([{ name: 'classic' }, { name: 'tennis 101', sport: Sport.find_by(name: 'Tennis')}])
+EquipmentRequirement.create(program: Program.find_by(name: 'classic'), equipment: Equipment.find_by(name: 'bench'))
